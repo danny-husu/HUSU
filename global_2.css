@@ -2324,12 +2324,10 @@ main {
 }
 
 #pgContent .numbered-list,#pgContent ol,#pgContent p,#pgContent ul {
-    margin-top: .75rem;
-    margin-bottom: 0;
-    text-align: justify;
-    font-weight: 400;
-    font-size: .875rem;
-    line-height: 1.5
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 1.42857rem;
+    margin-bottom: 1.42857rem;
 }
 
 #pgContent .btn {
