@@ -2320,7 +2320,25 @@ main {
 }
 
 #pgContent a {
-    font-weight: 500
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-thickness: max(1px, 0.0625rem);
+    text-underline-offset: 0.1em;
+    color: #006072;
+}
+
+#pgContent a:hover {
+    text-decoration-thickness: max(3px, 0.1875rem, 0.12em);
+    text-decoration-skip-ink: none;
+    color: #013b46 !important;
+}
+
+#pgContent a:focus {
+    outline: 3px solid transparent;
+    color: #0b0c0c;
+    background-color: #beb90b;
+    box-shadow: 0 -2px #beb90b, 0 4px #0b0c0c;
+    text-decoration: none;
 }
 
 #pgContent .numbered-list,#pgContent ol,#pgContent p,#pgContent ul {
@@ -2345,7 +2363,6 @@ main {
     display: block;
     font-weight: 600;
     margin-bottom: 0;
-    text-align: justify;
     margin-top: 2rem;
     line-height: 1.5
 }
