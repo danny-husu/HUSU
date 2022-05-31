@@ -3062,3 +3062,8 @@ color: #006072;
     background-color: #006072;
     border-color: #006072;
 }
+.alert-secondary {
+    color: #383d41;
+    background-color: #f8f9fa;
+    border-radius: 0.25rem !important;
+}
