@@ -2445,7 +2445,6 @@ main {
 
 #pgContent .alert {
     border-radius: 0;
-    text-align: justify
 }
 
 #pgContent .pg-divider {
@@ -2966,6 +2965,7 @@ p.lead-strong {
 }
 
 .btn-primary{
+    color: #006072;
     background-color: #ffffff;
     border-radius: 0.25rem!important;
     border: 1px solid #006072 !important;
