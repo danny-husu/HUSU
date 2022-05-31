@@ -2330,7 +2330,7 @@ main {
 #pgContent a:hover {
     text-decoration-thickness: max(3px, 0.1875rem, 0.12em);
     text-decoration-skip-ink: none;
-    color: #013b46 !important;
+    color: #013b46;
 }
 
 #pgContent a:focus {
@@ -2963,6 +2963,21 @@ p.lead-strong {
     margin-bottom: 0;
     background-color: #9b1252;
     border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.btn-primary{
+    background-color: #ffffff;
+    border-radius: 0.25rem!important;
+    border: 1px solid #006072 !important;
+    padding: 12px;
+    text-decoration: none !important;
+    transition: 0.3s;
+}
+.btn-primary:hover,.btn-primary:active{
+    color: #ffffff !important;
+    background-color: #006072;
+    transform: scale(1.1);
+
 }
 
 .btn-link-feedback {
