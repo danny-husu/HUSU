@@ -2335,9 +2335,9 @@ main {
 
 #pgContent a:focus {
     outline: 3px solid transparent;
-    color: #0b0c0c;
-    background-color: #beb90b;
-    box-shadow: 0 -2px #beb90b, 0 4px #0b0c0c;
+    color: #ffffff;
+    background-color: #006072;
+    box-shadow: 0 -2px #006072, 0 4px #0b0c0c;
     text-decoration: none;
 }
 
@@ -2981,13 +2981,17 @@ p.lead-strong {
     min-height: 1px;
     padding: 1.25rem;
 }
-
+@media only screen and (max-width: 600px) {
+    .feedback-btn {
+        margin-top:12px;
+    }
+}
 .fbContainer {
     max-width: 1140px;
     margin: auto;
     padding: 0.75rem 1.25rem;
     margin-bottom: 0;
-    background-color: #e75300;
+    background-color: #151e28;
     border-bottom: 2px solid rgba(0,0,0,.125);
     color: #FFF;
     font-weight: 600;
