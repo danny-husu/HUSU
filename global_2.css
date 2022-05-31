@@ -2389,11 +2389,15 @@ main {
 #pgContent .accordion>.card>.card-header {
     border-top: 1px solid rgba(0,0,0,.125);
     border-radius: 0;
-    padding: .5rem 1rem
+    padding: 1rem 1rem;
 }
 
 #pgContent .accordion>.card:first-child>.card-header {
     border-top: 0
+}
+
+.card-header{
+background-color: #F8F9FA;
 }
 
 #pgContent .accordion .card-body {
@@ -2979,7 +2983,17 @@ p.lead-strong {
     transform: scale(1.1);
 
 }
-
+.btn-link{
+color: #006072;
+}
+.btn-link:hover {
+    color: #013b46;
+    text-decoration: underline;
+    text-decoration-thickness: max(3px, 0.1875rem, 0.12em);
+}
+.btn:focus {
+    box-shadow: 0 0 0 0.2rem rgb(0 96 114 / 14%);
+}
 .btn-link-feedback {
     font-weight: 600;
     color: #FFFFFF !important;
@@ -3041,4 +3055,10 @@ p.lead-strong {
 }
 .skip-link {
   transition: transform 0.3s;
+}
+.list-group-item.active {
+    z-index: 2;
+    color: #fff !important;
+    background-color: #006072;
+    border-color: #006072;
 }
