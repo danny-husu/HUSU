@@ -2975,6 +2975,21 @@ p.lead-strong {
     color: #FFFFFF;
 }
 
+.btn-outline {
+    border: 1px solid #006072;
+    border-radius: 3px !important;
+    padding: 12px;
+    text-decoration: none !important;
+}
+.btn-selected {
+    border: 1px solid #006072;
+    background: #006072;
+    color: #ffffff !important;
+    border-radius: 3px !important;
+    padding: 12px;
+    text-decoration: none !important;
+}
+
 .card-body-feedback {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
