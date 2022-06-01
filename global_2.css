@@ -2359,14 +2359,6 @@ main {
     line-height: 1.5
 }
 
-#pgContent h4,#pgContent h5,#pgContent h6 {
-    display: block;
-    font-weight: 600;
-    margin-bottom: 0;
-    margin-top: 2rem;
-    line-height: 1.5
-}
-
 #pgContent .accordion {
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 0;
@@ -2474,16 +2466,6 @@ background-color: #F8F9FA;
 @media(max-width: 991px) {
     #pgContent>.row>* {
         margin-bottom:1.5rem
-    }
-}
-
-@media(max-width: 575px) {
-    #pgContent h4 {
-        font-size:1.25rem
-    }
-
-    #pgContent h5 {
-        font-size: 1.125rem
     }
 }
 
@@ -3065,5 +3047,24 @@ color: #006072;
 .alert-secondary {
     color: #383d41;
     background-color: #f8f9fa;
+    border-color: #f8f9fa;
     border-radius: 0.25rem !important;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f9fa;
+}
+.h2, h2, .h3, h3, .h4, h4, .h5, h5 {
+    font-weight: 600;
+}
+.h2, h2 {
+    font-size: clamp(1.1rem, 4.8vw - 1rem, 2rem);
+}
+.h3, h3 {
+    font-size: clamp(.9rem, 4.5vw - 1.1rem, 1.75rem);
+}
+.h4, h4 {
+    font-size: clamp(.8rem, 4.3vw - 1.1rem, 1.6rem);
+}
+.h5, h5 {
+    font-size: clamp(.7rem, 2.9vw - 0.6rem, 1.25rem);
 }
