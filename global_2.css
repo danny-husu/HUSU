@@ -943,9 +943,7 @@ main {
 }
 
 #topbar>.container>#tb-right>.navbar-nav>#topbar-dropdown-user>#signInDropdown {
-    border: 1px solid #1e7d34;
     font-weight: 500;
-    margin-left: .5rem
 }
 
 #topbar>.container>#tb-right>.navbar-nav>#topbar-dropdown-user>#signInDropdown::after {
