@@ -10,7 +10,8 @@ jobs:
       # Checks-out your repository
       - uses: actions/checkout@v2
         with:
-          ref: ${{ github.ref }}/global_styles.css
+          ref: ${{ github.ref }}
+          path: ${{ env.home }}/global_styles.css
 
       - name: Minify Action
         uses: anthonyftwang/minify-action@v1.0.1
