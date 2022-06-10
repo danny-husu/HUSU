@@ -13,12 +13,15 @@ jobs:
           ref: ${{ github.ref }}
           paths: 'global_styles.css'
 
-      - name: Minify Action
-        uses: anthonyftwang/minify-action@v1.0.1
+      - name: Auto Minify
+        uses: nizarmah/auto-minify@v2.1
+        with:
+          input: 'HUSU'
+          output: 'min_'
 
       # Auto-commit to repository
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          paths: 'global_styles_min.css'
+          repository: 'mini_js'
           commit_message: Minify source code
           branch: ${{ github.ref }}
