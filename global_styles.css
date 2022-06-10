@@ -2347,6 +2347,10 @@ main {
     word-break: break-word;
 }
 
+#pgContent li {
+    margin-bottom: 0.5rem;
+}
+
 #pgContent .btn {
     border-radius: 0
 }
