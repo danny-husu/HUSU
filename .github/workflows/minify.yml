@@ -17,11 +17,11 @@ jobs:
         uses: nizarmah/auto-minify@v2.1
         with:
           input: 'HUSU'
-          output: 'min_'
+          output: 'css'
 
       # Auto-commit to repository
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          repository: 'min_'
+          repository: 'css'
           commit_message: Minify source code
           branch: ${{ github.ref }}
