@@ -18,5 +18,6 @@ jobs:
       # Auto-commit to repository
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
+          path: ${{ env.home }}/global_styles_min.css
           commit_message: Minify source code
           branch: ${{ github.ref }}
