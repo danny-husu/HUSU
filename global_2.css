@@ -3107,3 +3107,7 @@ color: #006072;
 p, small {
     line-height: 1.5;
 }
+.lead {
+    font-size: 1.25rem !important;
+    font-weight: 400;
+}
