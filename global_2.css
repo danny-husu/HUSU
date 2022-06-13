@@ -3100,3 +3100,6 @@ color: #006072;
 .splide__progress__bar{
   background: #006072;
 }
+p, small {
+    line-height: 1.5;
+}
