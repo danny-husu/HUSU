@@ -2277,7 +2277,12 @@ main {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    height: 250px
+    height: 450px
+}
+@media (max-width: 575px) {
+  #pgBanner {
+    height: 300px;
+  } 
 }
 
 #pgBanner>.container {
@@ -2965,8 +2970,7 @@ p.lead-strong {
 .btn-primary:hover,.btn-primary:active{
     color: #ffffff !important;
     background-color: #006072;
-    transform: scale(1.1);
-
+    transform: scale(1.03);
 }
 .btn-link{
 color: #006072;
