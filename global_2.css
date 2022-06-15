@@ -3078,12 +3078,13 @@ color: #006072;
 .splide__controls {
     align-items: center;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     margin-top: -1.5rem;
+    padding-bottom: 1rem;
 }
 .splide__toggle {
     align-items: center;
-    background:#006072;
+    background:#ffffff;
     border-radius: 50%;
     border:none;
     display: inline-flex;
@@ -3092,17 +3093,12 @@ color: #006072;
     transition: background-color .2s ease;
     width: 2.7rem;
     z-index: 10;
-  box-shadow:6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
-  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
-  100px 100px 80px rgba(0, 0, 0, 0.07);
 }
 .splide__progress {
-    background: #FFFFFF;
-    margin-top: 2rem;
-    color:white;
+    background: #006072;
 }
-.splide__progress__bar{
-  background: #006072;
+.splide__progress__bar {
+    background: #00303c !important;
 }
 p, small {
     line-height: 1.5;
