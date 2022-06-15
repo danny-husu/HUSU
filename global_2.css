@@ -3107,3 +3107,13 @@ p, small {
     font-size: 1.25rem !important;
     font-weight: 400;
 }
+.crumb {
+    font-size: 0.9rem;
+}
+nav.container.crumb a {
+   color: #006072;
+}
+@media (min-width: 400px) and (max-width: 575px){
+.crumb {
+   padding-left: 1.5rem;
+}}
