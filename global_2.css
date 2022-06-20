@@ -102,12 +102,12 @@
     background-color: #712d3d;
     color: #fff;
     font-weight: 500;
-    transition: none
+    transition: none;
 }
 
 .btn-husu-purple--m:hover {
     background-color: #602634;
-    color: #fff
+    color: #fff;
 }
 
 .btn-husu-orange {
@@ -116,12 +116,12 @@
     background-color: #e75300;
     color: #fff;
     font-weight: 500;
-    transition: none
+    transition: none;
 }
 
 .btn-husu-orange:hover {
     background-color: #c44700;
-    color: #fff
+    color: #fff;
 }
 
 .btn-husu-orange--m {
@@ -130,12 +130,12 @@
     background-color: #bd4700;
     color: #fff;
     font-weight: 500;
-    transition: none
+    transition: none;
 }
 
 .btn-husu-orange--m:hover {
     background-color: #a13c00;
-    color: #fff
+    color: #fff;
 }
 
 .btn-husu-black {
@@ -144,12 +144,12 @@
     background-color: #151e28;
     color: #fff;
     font-weight: 500;
-    transition: none
+    transition: none;
 }
 
 .btn-husu-black:hover {
     background-color: #121a22;
-    color: #fff
+    color: #fff;
 }
 
 .btn-husu-light {
@@ -158,21 +158,21 @@
     background-color: #f8f9fa;
     color: #212529;
     font-weight: 500;
-    transition: none
+    transition: none;
 }
 
 .btn-husu-light:hover {
     background-color: #d3d4d5;
-    color: #212529
+    color: #212529;
 }
 
 #carouselSection {
-    padding: 1.5rem 0
+    padding: 1.5rem 0;
 }
 
 @media(max-width: 575px) {
     #carouselSection {
-        padding:1rem
+        padding:1rem;
     }
 }
 
@@ -180,103 +180,103 @@
     display: grid;
     grid-gap: 1.5rem;
     grid-template-columns: repeat(2,1fr);
-    margin-bottom: 1.5rem
+    margin-bottom: 1.5rem;
 }
 
 #carouselNewsSection>div {
-    height: 285px
+    height: 285px;
 }
 
 #mainCarousel {
-    margin-bottom: 1.5rem
+    margin-bottom: 1.5rem;
 }
 
 #mainCarouselSubbanners {
     display: grid;
     grid-gap: 1rem;
-    grid-template-columns: repeat(3,auto)
+    grid-template-columns: repeat(3,auto);
 }
 
 #mainCarouselSubbanners>div>a {
     color: #c1b900;
     font-weight: 700;
-    height: 142.5px
+    height: 142.5px;
 }
 
 #mainCarouselSubbanners>div>a>h2 {
     font-weight: 700;
-    line-height: 1
+    line-height: 1;
 }
 
 @media(max-width: 399px) {
     #mainCarouselSubbanners {
-        grid-template-columns:auto
+        grid-template-columns:auto;
     }
 }
 
 @media(min-width: 400px) and (max-width:767px) {
     #mainCarouselSubbanners {
-        grid-template-columns:repeat(2,1fr)
+        grid-template-columns:repeat(2,1fr);
     }
 }
 
 @media(min-width: 768px) {
     #mainCarouselSubbanners {
-        grid-gap:1.5rem
+        grid-gap:1.5rem;
     }
 }
 
 #presidentSection {
-    background: rgba(108,117,125,.15);
-    padding: 3rem 0
+    background: #F5F7FA;
+    padding: 3rem 0;
 }
 
 @media(max-width: 479px) {
     #presidentSection {
-        padding:1.5rem 1rem
+        padding:1.5rem 1rem;
     }
 }
 
 @media(min-width: 480px) and (max-width:991px) {
     #presidentSection {
-        padding:1.5rem
+        padding:1.5rem;
     }
 }
 
 #presidentSection>.container>div:nth-child(2) {
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }
 
 @media(max-width: 479px) {
     #presidentSection>.container>div:nth-child(2) {
-        flex-direction:column
+        flex-direction:column;
     }
 }
 
 @media(min-width: 1200px) {
     #presidentSection>.container>div:nth-child(2) {
-        justify-content:space-between
+        justify-content:space-around;
     }
 
     #presidentSection>.container>div:nth-child(2)>#p1 {
-        order: 3
+        order: 3;
     }
 
     #presidentSection>.container>div:nth-child(2)>#p2 {
-        order: 2
+        order: 2;
     }
 
     #presidentSection>.container>div:nth-child(2)>#p3 {
-        order: 1
+        order: 1;
     }
 
     #presidentSection>.container>div:nth-child(2)>#p4 {
-        order: 4
+        order: 4;
     }
 
     #presidentSection>.container>div:nth-child(2)>#p5 {
-        order: 5
+        order: 5;
     }
 }
 
@@ -284,7 +284,7 @@
     border-radius: 0;
     transition: border-color .4s ease-in-out,box-shadow .4s ease-in-out;
     user-select: none;
-    width: 13rem
+    width: 13rem;
 }
 
 #presidentSection .card>.card-img-top {
@@ -2274,6 +2274,7 @@ main {
 }
 
 #pgBanner {
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
     height: 450px
