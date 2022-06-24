@@ -1006,6 +1006,10 @@ main {
     margin-right: 2rem
 }
 
+a.navbar-brand{
+    width:100px;
+}
+
 @media(max-width: 575px) {
     #navbar-wrapper .navbar>.navbar-brand {
         padding-top:0;
@@ -2612,7 +2616,6 @@ background-color: #F8F9FA;
 
 #pgBlog #pgBlogEntries>.pg-blog-entry:not(:first-child) {
     margin-top: 2rem;
-    border-left: 4px solid #dfe0e1;
 }
 
 #pgBlog #pgBlogEntries>.pg-blog-entry>h4 {
