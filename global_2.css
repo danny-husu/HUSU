@@ -2511,6 +2511,13 @@ background-color: #F8F9FA;
     text-transform: uppercase
 }
 
+#pgBlog h2 {
+    color: rgba(0,0,0,.8);
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
 @media(max-width: 1199px) {
     #pgBlog h1 {
         font-size:3.5rem
@@ -2567,11 +2574,33 @@ background-color: #F8F9FA;
 }
 
 #pgBlog ol,#pgBlog p,#pgBlog ul {
-    font-size: .875rem;
-    font-weight: 400;
+    font-size: 1rem;
     line-height: 1.5;
-    margin-top: .75rem;
-    margin-bottom: 0
+    margin-top: 1.42857rem;
+    margin-bottom: 1.42857rem;
+    word-break: break-word;
+}
+
+#pgBlog a {
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-thickness: max(1px, 0.0625rem);
+    text-underline-offset: 0.1em;
+    color: #006072;
+}
+
+#pgBlog a:hover {
+    text-decoration-thickness: max(3px, 0.1875rem, 0.12em);
+    text-decoration-skip-ink: none;
+    color: #013b46;
+}
+
+#pgBlog a:focus {
+    outline: 3px solid transparent;
+    color: #ffffff;
+    background-color: #006072;
+    box-shadow: 0 -2px #006072, 0 4px #0b0c0c;
+    text-decoration: none;
 }
 
 #pgBlog h4,#pgBlog h5,#pgBlog h6 {
