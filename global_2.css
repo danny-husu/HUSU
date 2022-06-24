@@ -227,7 +227,7 @@
 }
 
 #presidentSection {
-    background: #F5F7FA;
+    background: linear-gradient(180deg, rgb(248 249 250) 0%, #f5f7fa 100%);
     padding: 3rem 0;
 }
 
@@ -284,7 +284,8 @@
     border-radius: 0;
     transition: border-color .4s ease-in-out,box-shadow .4s ease-in-out;
     user-select: none;
-    width: 13rem;
+    width: 17rem;
+    border: none !important;
 }
 
 #presidentSection .card>.card-img-top {
@@ -313,7 +314,6 @@
 
 @media(max-width: 479px) {
     #presidentSection .card {
-        flex-direction:row;
         width: 100%!important
     }
 
@@ -2611,7 +2611,8 @@ background-color: #F8F9FA;
 }
 
 #pgBlog #pgBlogEntries>.pg-blog-entry:not(:first-child) {
-    margin-top: 2rem
+    margin-top: 2rem;
+    border-left: 4px solid #dfe0e1;
 }
 
 #pgBlog #pgBlogEntries>.pg-blog-entry>h4 {
@@ -2681,12 +2682,6 @@ background-color: #F8F9FA;
     margin-right: .375rem;
     margin-bottom: .5rem;
     transition: none
-}
-
-@media(max-width: 991px) {
-    #pgBlog #pgBlogSidebar {
-        order:1
-    }
 }
 
 #electPositionsGrid {
