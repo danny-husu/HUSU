@@ -22714,7 +22714,7 @@
     color: #006072;
 }
 .about-block {
-    word-break: break-all;
+    word-break: break-word;
 }
 .about-block span {
     font-family: Montserrat,sans-serif !important;
