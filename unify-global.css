@@ -6589,8 +6589,7 @@
     background-image: linear-gradient(160deg,rgba(0,0,153,0.55),rgba(0,190,214,0.6));
     background-clip: text;
     -webkit-background-clip: text;
-    text-fill-color: transparent;
-    -webkit-text-fill-color: transparent
+    -webkit-text-fill-color: transparent;
 }
 
 .g-color-blue-gradient-opacity-v1 {
@@ -6598,7 +6597,7 @@
     background-image: linear-gradient(-260deg,#8654da,rgba(66,229,248,0.8));
     background-clip: text;
     -webkit-background-clip: text;
-    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
     -webkit-text-fill-color: transparent
 }
 
@@ -22706,4 +22705,14 @@
 
 .g-hidden-xl-down {
     display: none!important
+}
+.about-block a {
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-thickness: max(1px,0.0625rem);
+    text-underline-offset: 0.1em;
+    color: #006072;
+}
+.about-block {
+    word-break: break-all;
 }

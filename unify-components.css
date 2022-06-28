@@ -14413,7 +14413,7 @@ li:last-child .u-dot-line-v2::after,li:last-child .u-dot-line-v2-2::after {
     height: 20px;
     background: -webkit-linear-gradient(-225deg,#f7f7f7 10px,transparent 0) 0 10px,-webkit-linear-gradient(-315deg,#f7f7f7 10px,transparent 0) 0 10px;
     background-position: top left;
-    background-repear: repeat-x;
+    background-repeat: repeat-x;
     background-size: 20px 20px
 }
 
@@ -14433,7 +14433,7 @@ li:last-child .u-dot-line-v2::after,li:last-child .u-dot-line-v2-2::after {
     height: 20px;
     background: -webkit-linear-gradient(225deg,#f7f7f7 10px,transparent 0) 0 10px,-webkit-linear-gradient(315deg,#f7f7f7 10px,transparent 0) 0 10px;
     background-position: top left;
-    background-repear: repeat-x;
+    background-repeat: repeat-x;
     background-size: 20px 20px
 }
 
@@ -14453,7 +14453,7 @@ li:last-child .u-dot-line-v2::after,li:last-child .u-dot-line-v2-2::after {
     height: 20px;
     background: -webkit-linear-gradient(-225deg,#fff 10px,transparent 0) 0 10px,-webkit-linear-gradient(-315deg,#fff 10px,transparent 0) 0 10px;
     background-position: top left;
-    background-repear: repeat-x;
+    background-repeat: repeat-x;
     background-size: 20px 20px
 }
 
@@ -14473,7 +14473,7 @@ li:last-child .u-dot-line-v2::after,li:last-child .u-dot-line-v2-2::after {
     height: 20px;
     background: -webkit-linear-gradient(-225deg,var(--husu-color-blue) 10px,transparent 0) 0 10px,-webkit-linear-gradient(-315deg,var(--husu-color-blue) 10px,transparent 0) 0 10px;
     background-position: top left;
-    background-repear: repeat-x;
+    background-repeat: repeat-x;
     background-size: 20px 20px
 }
 
@@ -14493,7 +14493,7 @@ li:last-child .u-dot-line-v2::after,li:last-child .u-dot-line-v2-2::after {
     height: 20px;
     background: -webkit-linear-gradient(-225deg,#000 10px,transparent 0) 0 10px,-webkit-linear-gradient(-315deg,#000 10px,transparent 0) 0 10px;
     background-position: top left;
-    background-repear: repeat-x;
+    background-repeat: repeat-x;
     background-size: 20px 20px
 }
 
@@ -14513,7 +14513,7 @@ li:last-child .u-dot-line-v2::after,li:last-child .u-dot-line-v2-2::after {
     height: 20px;
     background: -webkit-linear-gradient(-225deg,#111 10px,transparent 0) 0 10px,-webkit-linear-gradient(-315deg,#111 10px,transparent 0) 0 10px;
     background-position: top left;
-    background-repear: repeat-x;
+    background-repeat: repeat-x;
     background-size: 20px 20px
 }
 
@@ -15835,7 +15835,7 @@ li:last-child .u-dot-line-v2::after,li:last-child .u-dot-line-v2-2::after {
     bottom: -5px;
     margin-left: -5px;
     border-style: solid;
-    border-color: var(--husu-color-blue); transparent;
+    border-color: var(--husu-color-blue) transparent;
     border-width: 5px 5px 0
 }
 
@@ -19677,7 +19677,7 @@ video {
     [class*=u-dropdown-col-]>* {
         min-width: 200px;
         -webkit-column-break-inside: avoid;
-        column-break-inside: avoid
+        -webkit-column-break-inside: avoid;
     }
 
     .u-dropdown-col-2 {
@@ -22255,9 +22255,6 @@ img.u-block-hover__main--magnifier-top-left {
     transform: translate3d(0,-10px,0)
 }
 
-.u-block-hover:hover,.u-block-hover:focus {
-}
-
 .u-block-hover:hover .u-block-hover__prop-opacity-1,.u-block-hover:focus .u-block-hover__prop-opacity-1 {
     opacity: 1
 }
@@ -23978,7 +23975,6 @@ textarea {
 .dropdown-toggle::after {
     content: "\e900";
     position: relative;
-    top: .21429rem;
     font-family: hs-icons!important;
     font-size: 10px;
     display: inline;
